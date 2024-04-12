@@ -1,0 +1,73 @@
+*  {
+  margin: 0;
+  margin-inline: auto;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ECF2F8;
+}
+
+.temel {
+  width: 327px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  background-color:  #FFFFFF; 
+  margin-top: 200px;
+  margin-bottom: 89px;
+}
+
+.temel img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.yazi h1 {
+  width: 263px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  margin-bottom: 12px;
+  color: #48556A;
+  margin-top: 36px;
+  margin-left: 32px;
+}
+
+.yazi p {
+  width: 263px;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.12187500298023224px;
+  text-align: left;
+  color: #6E8098;
+  margin-bottom: 20px;
+  margin-left: 32px;
+}
+
+.share {
+  background-color: #48556A;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 22px 32px;
+}
+
+.share p {
+  margin: 0;
+  text-align: left;
+  color: #9DAEC2;
+  float: left;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 5px;
+}
+
+
+

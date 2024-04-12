@@ -1,0 +1,58 @@
+.anacerceve {
+  width: 1110px;
+  background-color: #121212; 
+  border: 1px solid #121212;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: 200px;
+  margin-left: 300px;
+}  
+
+.anacerceve img {
+  width: 368.5px;
+  margin-bottom: 0px;
+  margin-top: 36px;
+  margin-right: 61.5px;
+  float: right;
+}
+
+.kutu {
+  width: 426px;
+  margin-bottom: 55px;
+  margin-top: 83px;
+  margin-left: 96px;
+}
+
+.kutu h3 {
+width: 426px;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+margin-bottom: 24px; 
+margin-top: 83px;
+margin-left: 96px;
+color: #FFFFFF;
+}
+
+.buton {
+width: 280px;
+border: 1px solid #DC3545;
+background-color: #DC3545; 
+border-radius: 3px;
+margin-left: 96px;
+}
+
+.buton h4 {
+width: 136px;
+color: #FFFFFF;
+font-family: Montserrat;
+font-size: 23px;
+font-weight: 600;
+line-height: 32px;
+text-align: center;
+margin-left: 72px;
+}
