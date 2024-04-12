@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #F8EEFF;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.fotograf img {
+  position: absolute;
+  left: 0px;
+  width: 1470px;
+  top: 0px;
+}
+
+.temel {
+  width: 600px;
+  padding: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  margin-top: 80px;
+  margin-bottom: 167px;
+  margin-left: 420px;
+  margin-right: 420px;
+  position: absolute;
+  top: 50px;
+  
+}
+
+.temel img {
+width: 40px;
+float: left;
+padding-top: 24px;
+
+}
+
+.temel h1 {
+font-family: Work Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 65.69px;
+text-align: left;
+color: #301534;
+margin-top: 13px;
+margin-bottom: 32px;
+}
+
+.temel summary {
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.11px;
+text-align: left;
+}
