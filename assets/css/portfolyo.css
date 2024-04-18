@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   box-sizing: border-box;
   background-color: black;
@@ -13,10 +13,9 @@
 .header {
   width: 1440px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-block: 32px;
-  margin-left: 120px;
+  gap: 200px;
 }
 
 .header h3 {
@@ -36,8 +35,9 @@
 
 .althead {
   width: 1440px;
+  margin-left: -20px;
+  margin-right: -40px;
   margin-bottom: 100px;
-  margin-left: 120px;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
 }
@@ -51,8 +51,6 @@
 }
 
 .container h1 {
-  margin-left: 20px;
-  font-family: Space Grotesk;
   font-size: 88px;
   font-weight: 700;
   line-height: 88px;
@@ -74,20 +72,18 @@
 }
 
 .althead p {
-  width: 700px;
+  width: 1000px;
   color: #FFFFFF;
-  margin-left: 120px;
+  margin-left: 60px;
 }
 
 .container h2 {
   color: #FFFFFF;
-  font-family: Space Grotesk;
   font-size: 50px;
   font-weight: 700;
   line-height: 88px;
   letter-spacing: -2.5px;
   text-align: left;
-  margin-left: 120px;
   margin-bottom: 70px;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -98,7 +94,6 @@
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
-  margin-left: 130px;
   margin-bottom: 80px;
 }
 
@@ -111,39 +106,23 @@
   color:#FFFFFF;
 }
 
-.contact h2 {
-  font-family: Space Grotesk;
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 88px;
-  letter-spacing: -2.5px;
-  text-align: left;
-  margin-left: 120px;
-  margin-bottom: 20px;
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-}
-
-
 .contact p {
   color: #FFFFFF;
-  font-family: Space Grotesk;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
-  text-align: center;
+  text-align: left;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
 }
 
 .eposta {
-  padding-left: 180px;
+  padding-left: 40px;
 }
 
 .eposta h4 {
   width: 800px;
   color: #FFFFFF;
-  font-family: Space Grotesk;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -155,19 +134,11 @@
 }
 
 .eposta hr {
-  width: 500px;
   margin-bottom: 20px;
 }
 
  .altkutu {
-  width: 1440px;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  flex-direction: row;
-  margin-left: 200px;
-  gap: 30px;
   margin-bottom: 100px;
  }
 
