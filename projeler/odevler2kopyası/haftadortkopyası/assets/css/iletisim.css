@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 1440px;
+}
+
+.header {
+  width: 1111px;
+  display: flex;
+  margin-block: 64px;
+}
+
+.header a:hover {
+  text-decoration:underline;
+}
+
+.header img {
+  margin-right: 545px;
+}
+
+.header a {
+  size: 14px;
+  text-decoration: none;
+  color: #333136;
+}
+
+.contactus {
+  width: 1111px;
+  height: 480px;
+  background-image: url(/projeler/odevler2kopyası/haftadortkopyası/assets/img/iletisimarkaplan.png);
+  margin-bottom: 160px;
+}
+
+.inform h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-left: 95px;
+  padding-top: 135px;
+  padding-bottom: 32px;
+}
+
+.inform p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-left: 95px;
+  padding-right: 70px;
+}
+
+.country {
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 160px;
+}
+
+.country img {
+  padding-bottom: 48px;
+}
+
+.country h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+  letter-spacing: 4px;
+  padding-bottom: 36px;
+}
+
+.buton {
+  width: 152px;
+  background-color: #E7816B;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.buton:hover {
+  background-color: #FFAD9B;
+}
+
+.buton a {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.thelastbox  {
+  background-color: #1D1C1E;
+}
+
+.thelastbox hr {
+  width: 1111px;
+  margin-bottom: 31px;
+  color: #FFFFFF;
+}
+
+.nav {
+  width: 1111px;
+  display: flex;
+  padding-top: 144px;
+  margin-bottom: 40px;
+  margin-block: 20px;
+}
+
+.nav img {
+  margin-right: 545px;
+}
+
+.nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.aboutus {
+  width: 700px;
+  display: flex;
+  gap: 24px;
+  color: #FFFFFF;
+  margin-left: 108px;
+  bottom: 321px;
+}
+
+.aboutus li {
+  list-style-type: none;
+}
+
+.picture {
+  width: 184px;
+  display: flex;
+  margin-left: 1075px;
+  margin-top: 0px;
+  padding-bottom: 72px;
+}

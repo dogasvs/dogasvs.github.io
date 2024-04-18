@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  width: 1440px;
+}
+
+.header {
+  width: 1111px;
+  display: flex;
+  margin-block: 64px;
+}
+
+.header a:hover {
+text-decoration:underline;
+}
+
+.header img {
+  margin-right: 545px;
+}
+
+.header a {
+  size: 14px;
+  text-decoration: none;
+  color: #333136;
+}
+
+.firstbox {
+  width: 1111px;
+  height: 640px;
+  background-image: url(/projeler/odevler2kopyası/haftadortkopyası/assets/img/homepagefirst.png);
+  background-repeat: no-repeat;
+  margin-bottom: 160px;
+}
+
+.firstbox h1 {
+  width: 540px;
+  font-weight: 500;
+  font-size: 48px;
+  padding-top: 145px;
+  margin-left: 95px;
+  line-height: 48px;
+  color: #FFF;
+  padding-bottom: 31px;
+}
+
+.firstbox p {
+  width: 417px;
+  margin-left: 95px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.buton {
+  width: 152px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-left: 95px;
+}
+
+.buton p {
+  margin: 0px;
+  padding-top: 18px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+  color: #333136;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+}
+
+.buton:hover {
+  background-color: #FFAD9B;
+}
+
+.buton p:hover {
+  color: #FFFFFF;
+}
+
+.featured-products {
+  width: 1112px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 160px;
+  position: relative;
+}
+
+.featured-products img:hover {
+ color: #FFAD9B;
+ opacity: 1;
+}
+
+.left img {
+  margin-bottom: 20px;
+}
+
+.directed-writing {
+  width: 268px;
+  position: absolute;
+  top: 273px; 
+  left: 137px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.directed-writing h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 24px;
+}
+
+.directed-writing p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height:21.68px;
+  letter-spacing: 3px;
+}
+
+.directed-writing a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.directed-writing-app {
+  width: 268px;
+  position: absolute;
+  top: 107px;  
+  left: 714px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.directed-writing-app h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 24px;
+}
+
+.directed-writing-app p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height:21.68px;
+  letter-spacing: 3px;
+}
+
+.directed-writing-app a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.directed-writing-graph {
+  position: absolute;
+  top: 432px;  
+  left: 680px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.directed-writing-graph h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 24px;
+}
+
+.directed-writing-graph p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height:21.68px;
+  letter-spacing: 3px;
+}
+
+.directed-writing-graph a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.inform {
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  color: #333136;
+}
+
+.inform h2 {
+  width: 350px;
+  padding-top: 48px;
+  padding-bottom: 32px;
+  size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.inform p {    
+  width: 350px;
+  size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.direction {
+  width: 1111px;
+  height: 292px;
+  background-image: url(/projeler/odevler2kopyası/haftadortkopyası/assets/img/homepagelast.png);
+  position: relative;
+  z-index: 1;
+  top: 108px;
+}
+
+.yazilar {
+  display: flex;
+  align-items: center;
+}
+
+.yazilar a {
+  color: #000;
+  background-color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 17px 19px;
+  border-radius: 5px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.yazilar a:hover {
+  background-color: #FFAD9B;
+  color: #FFFFFF;
+}
+
+.yazilar h2 {
+  margin-left: 95px;
+  padding-top: 72px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.yazilar p {
+width: 459px;
+font-size: 16px;
+line-height: 26px;
+margin-left: 95px;
+color: #FFFFFF;
+}
+
+.nav {
+  width: 1111px;
+  display: flex;
+  padding-top: 144px;
+  margin-bottom: 40px;
+  margin-block: 20px;
+}
+
+.nav img {
+  margin-right: 545px;
+}
+
+.nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.thelastbox  {
+  background-color: #1D1C1E;
+}
+
+.thelastbox hr {
+  width: 1111px;
+  margin-bottom: 31px;
+  color: #FFFFFF;
+}
+
+.aboutus {
+  width: 700px;
+  display: flex;
+  gap: 24px;
+  color: #FFFFFF;
+  margin-left: 108px;
+  bottom: 321px;
+}
+
+.aboutus li {
+  list-style-type: none;
+}
+
+.picture {
+  width: 184px;
+  display: flex;
+  margin-left: 1075px;
+  margin-top: 0px;
+  padding-bottom: 72px;
+}
+
+.picture img:hover {
+  color: #FFAD9B;
+}
