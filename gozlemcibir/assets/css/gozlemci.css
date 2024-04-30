@@ -1,0 +1,350 @@
+/*Yeni versiyon*/
+:root {
+  --morumsu-color:#755CDE;
+  --sarımsı-color:#F6A560;
+  --pembemsi-color:#F39E9E;
+  --turuncumsu-color:#EB7565;
+  --yesilimsi-color:#61C4B7;
+  --bordomsu-color:#552049;
+  --dark-color:#030303;
+  --grimsi-color:#7A746E;
+  --light-color:#FFF7F0;
+}
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  background-color: var(--light-color);
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1115px;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 60px; */
+  padding-bottom: 60px;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 14px 45px;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  border-radius: 39px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--morumsu-color);
+}
+
+.inform {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.inform h1 {
+  font-size: 56px;
+  line-height: 70.56px;
+  color: var(--dark-color);
+  margin-bottom: 27px;
+}
+
+.inform p {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grimsi-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.kutucuklar {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 136px;
+  margin-inline: 165px;
+}
+.kutu {
+  background-color: #f08080;
+  padding: 20px;
+  grid-column: span 2;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 30.24px;
+}
+.kutu img {
+  align-self: end;
+}
+.kutu:first-child {
+  gap: 92px;
+}
+.tek {
+  grid-column: span 1;
+}
+.kutu:nth-child(1) {
+  background-color: #755CDE;
+}
+
+.kutu:nth-child(2) {
+  background-color: #F6A560;
+}
+
+.kutu:nth-child(3) {
+  background-color: #F39E9E;
+}
+
+.kutu:nth-child(4) {
+  background-color: #61C4B7;
+}
+
+.kutu:nth-child(5) {
+  background-color: #EB7565;
+}
+
+.kutu:nth-child(6) {
+  background-color: #552049;
+}
+
+
+.consultation {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: flex;
+  gap: 125px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.consultation h1 {
+  font-size: 40px;
+  line-height: 50.4px;
+  color: var(--dark-color);
+  margin-bottom: 34px;
+}
+
+.consultation p {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--grimsi-color);
+  margin-bottom: 32px;
+}
+
+.consultation a {
+  padding: 14px 45px;
+  background-color: var(--turuncumsu-color);
+  color: var(--light-color);
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.consultation a:hover {
+  background-color: var(--sarımsı-color);
+}
+
+.content {
+  margin: 0 auto;
+  display: flex;
+  gap: 180px;
+  align-items: center;
+  max-width: 1110px;
+  border: 1px solid var(--dark-color);
+  border-radius: 20px;
+  background-color: var(--dark-color);
+  margin-bottom: 26px;
+}
+
+.writes {
+  max-width: 540px;
+  margin-block: 80px;
+  margin-left: 65px;
+}
+
+.writes h1 {
+  font-size: 40px;
+  line-height: 50.4px;
+  color: var(--light-color);
+  margin-bottom: 25px;
+}
+
+.writes p {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--light-color);
+}
+
+.content a {
+ max-width: 228px;
+ padding: 14px 45px;
+ background-color: var(--turuncumsu-color);
+ color: var(--light-color);
+ text-decoration: none;
+ border-radius: 33px;
+}
+
+.content a:hover {
+  background-color: var(--sarımsı-color);
+}
+
+
+@media(width < 1440px) {
+
+  .kutucuklar {
+    grid-template-columns: repeat(6, 1fr);
+    margin-inline: 165px;
+  }
+}
+
+@media(width < 768px) {
+  
+  .kutucuklar {
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: 39px;
+  }
+  .kutu:first-child {
+    grid-row: span 2;
+  }
+  
+  .header {
+  width: 689px;
+  }
+
+  .consultation {
+    gap: 44px;
+    margin-bottom: 120px;
+  }
+
+  .consultation .yazilar {
+    width: 339px;
+  }
+
+  .consultation img {
+    width: 364px;
+  }
+
+  .content {
+    margin-inline: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 56px 76px;
+  }
+  
+  .writes {
+    margin-block: 0;
+    margin-bottom: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+
+@media(width < 375px) {
+  .header {
+  width: 343px;
+  }
+
+  .kutucuklar {
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: 16px;
+  }
+
+  .inform {
+  margin-block: 16px;
+  margin-bottom: 32px;
+  }
+
+  .consultation {
+  display: inline-block;
+  }
+
+  .consultation .yazilar {
+  width: 343px;
+  text-align: center;
+  margin-inline: 16px;
+  }
+
+  .consultation img {
+  width: 300px;
+  margin-inline: 37px;
+  margin-bottom: 40px;
+  }
+
+  .content {
+    width: 343px;
+  }
+  
+  .content a {
+    width: 230px;
+  }
+
+  .project h3 {
+    width: 138px;
+    margin-inline: auto;
+    font-size: 22px;
+  }
+
+  .writes {
+    width: 290px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+}
+
+
