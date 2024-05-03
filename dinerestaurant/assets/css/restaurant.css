@@ -56,7 +56,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .history {
   max-width: 1440px;
   height: 820px;
-  background-image: url(/assets/img/makarna.jpg);
+  background-image: url(/dinerestaurant/assets/img/makarna.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   /* position: absolute; */
@@ -252,7 +252,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .reservation {
   max-width: 1440px;
   height: 240px;
-  background-image: url(/assets/img/navarkaplan.png);
+  background-image: url(/dinerestaurant/assets/img/navarkaplan.png);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -313,7 +313,7 @@ p, h1, h2, h3, h4, h5, h6 {
    .history {
     width: 768px;
     height: 992px;
-    background-image: url(/assets/img/tabletmakarna.png);
+    background-image: url(/dinerestaurant/assets/img/tabletmakarna.png);
     background-repeat: no-repeat;
     background-size: contain;
    }
@@ -435,7 +435,7 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 272px;
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(/assets/img/tabletnav.png);
+    background-image: url(/dinerestaurant/assets/img/tabletnav.png);
    }
 
   .reservation h1 {
@@ -475,7 +475,7 @@ p, h1, h2, h3, h4, h5, h6 {
    .history {
     width: 375px;
     height: 748px;
-    background-image: url(/assets/img/mobilmakarna.png);
+    background-image: url(/dinerestaurant/assets/img/mobilmakarna.png);
    }
 
    .history img {
@@ -586,7 +586,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
    .reservation {
     height: 328px;
-    background-image: url(/assets/img/mobilnav.png);
+    background-image: url(/dinerestaurant/assets/img/mobilnav.png);
     background-repeat: no-repeat;
    }
 
