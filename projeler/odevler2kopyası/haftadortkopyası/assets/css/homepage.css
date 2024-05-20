@@ -96,8 +96,10 @@ text-decoration:underline;
  opacity: 1;
 }
 
-.left img {
-  margin-bottom: 20px;
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .directed-writing {
