@@ -89,6 +89,7 @@
 .simge {
   width: 1110px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-left: 165px;
   margin-bottom: 112px;
